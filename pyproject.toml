@@ -1,6 +1,6 @@
 [project]
 name = "rajaongkir-python-sdk"
-version = "0.1.0"
+version = "0.1.1"
 description = "this is python library for support RajaOngkir API"
 readme = "README.md"
 license = { file = "LICENSE" }
