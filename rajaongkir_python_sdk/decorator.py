@@ -1,7 +1,7 @@
 from collections.abc import Callable
 from typing import Any, TypeVar
 
-from raja_ongkir.exception import InvalidAccountPlanException
+from rajaongkir_python_sdk.exception import InvalidAccountPlanException
 
 F = TypeVar('F', bound=Callable[..., Any])
 

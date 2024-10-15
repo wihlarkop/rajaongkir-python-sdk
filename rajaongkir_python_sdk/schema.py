@@ -2,8 +2,8 @@ from typing import Any, Self
 
 from pydantic import BaseModel, Field, model_validator
 
-from raja_ongkir.exception import RajaOngkirException
-from raja_ongkir.const import ACCOUNT_PLAN_LITERAL, RAJA_ONGKIR_ACCOUNT_PLAN_STARTER, RAJA_ONGKIR_COURIER
+from rajaongkir_python_sdk.exception import RajaOngkirException
+from rajaongkir_python_sdk.const import ACCOUNT_PLAN_LITERAL, RAJA_ONGKIR_ACCOUNT_PLAN_STARTER, RAJA_ONGKIR_COURIER
 
 
 class ProvinceResponse(BaseModel):
