@@ -18,22 +18,23 @@ This SDK allows you to interact with the RajaOngkir API from your Python code.
 - [ ] Check Currency (Pro Plan)
 - [ ] Check WayBill (Pro Plan)
 
+for another feature will be update soon
 ## Installation
 
 Install rajaongkir sdk
 
 ```bash
-  pip install rajaongkir-py
+  pip install rajaongkir-python-sdk
 ```
 
 ## Usage/Examples
 
 ```python
-from raja_ongkir import RajaOngkirAPI
+from rajaongkir_python_sdk import RajaOngkirAPI
 
 api_key = "your_api_key"
-rajaongkir = RajaOngkirAPI(api_key=api_key)
-response = rajaongkir.province()
+rajaongkir = RajaOngkirAPI(api_key=api_key) # init new client
+response = rajaongkir.province() # for get all province
 print(response)
 ```
 

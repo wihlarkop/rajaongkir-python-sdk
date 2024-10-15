@@ -5,20 +5,20 @@ from typing import Any
 import httpx
 from pydantic import BaseModel
 
-from raja_ongkir.const import (
+from rajaongkir_python_sdk.const import (
     ACCOUNT_PLAN_LITERAL,
     RAJA_ONGKIR_ACCOUNT_PLAN_PRO,
     RAJA_ONGKIR_ACCOUNT_PLAN_STARTER,
     RAJA_ONGKIR_PRO_URL,
     RAJA_ONGKIR_STARTER_URL,
 )
-from raja_ongkir.decorator import restricted_to_plans
-from raja_ongkir.exception import (
+from rajaongkir_python_sdk.decorator import restricted_to_plans
+from rajaongkir_python_sdk.exception import (
     InvalidAccountPlanException,
     InvalidAPIKeyException,
     RajaOngkirException,
 )
-from raja_ongkir.schema import (
+from rajaongkir_python_sdk.schema import (
     CityQueryParams,
     ProvinceQueryParams,
     RajaOngkirBaseResponse, CostBodyRequest,

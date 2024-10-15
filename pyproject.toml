@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "this is python library for support RajaOngkir API"
 readme = "README.md"
 license = { file = "LICENSE" }
-keywords = ["rajaongkir", "raja_ongkir", "rajaongkir-py"]
+keywords = ["rajaongkir", "raja_ongkir", "rajaongkir python sdk"]
 requires-python = ">=3.11"
 authors = [
     { name = "Wihlarko Prasdegdho", email = "wihlarko26@gmail.com" },
@@ -32,7 +32,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["rajaongkir_py"]
+packages = ["rajaongkir_python_sdk"]
 
 [tool.uv]
 dev-dependencies = [
